@@ -3,7 +3,7 @@
     --first-color: rgb(217, 0, 98);
     --first-alpha-color: rgba(217, 0, 98, 0.75);
     --second-color: rgb(20,25,45);
-    --second-alpha-color: rgba(20, 25, 45, 0.75)
+    --second-alpha-color: rgba(20, 25, 45, 0.75);
     --third-color: rgb(80, 20, 100);
     --third-alpha-color: rgba(80, 20, 100, 0.75);
 
@@ -83,6 +83,12 @@ a :hover {
         rgba(28, 118, 173, 0.92),
         rgba(83, 184, 152, 1)
     );
+}
+.bg-third-color {
+    background-color: var(--third-color);
+}
+.text-third {
+    color: var(--third-color);
 }
 /* ********** Media Querys  ****** */
 @media (min-width: 768px) {
