@@ -107,6 +107,10 @@ a :hover {
     background-image: var(--bg-image);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+}
+.bg-second-alpha-color {
+    background-color: var(--second-alpha-color);
 }
 
 /* ********** Media Querys  ****** */
